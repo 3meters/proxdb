@@ -1,0 +1,11 @@
+{
+  "name": "proxdb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proxibase Mongosafe with Schemas Bundler",
+  "author": {
+    "name": "3meters Engineering",
+    "email": "dev@3meters.com>"
+  },
+  "repository": "git://github.com:3meters/proxdb"
+}
