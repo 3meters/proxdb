@@ -7,11 +7,11 @@
  *************/
 
 var path = require('path')
-var mongo = require('../lib/mongosafe')
-var defaultConfig = require('../config/config.js')
+var mongo = require('../../lib/mongosafe')
+var defaultConfig = require('../../config/config.js')
 
 mongo._initDb = mongo.initDb
-var schemaPath = path.join(__dirname, '../lib/schemas')
+var schemaPath = path.join(__dirname, '../../lib/schemas')
 
 mongo.initDb = function(config, cb) {
   if (tipe.isFunction(config)) {
